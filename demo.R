@@ -10,7 +10,6 @@ Options:
 [--arg3=<arg3>]   Takes any value (this is an optional option)
 [<arg4>]          Takes any value (this is an optional positional)
 " -> doc
-
 library(docopt)
 
 main <- function() {
